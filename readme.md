@@ -2,6 +2,8 @@
 
 This project allows you to upload an image of the night sky, submit it to [astrometry.net](http://nova.astrometry.net), and receive an annotated image with identified stars. The script also generates a link to Stellarium Web so you can visualize the solved sky position.
 
+[Get your API key here](https://nova.astrometry.net/api_help)
+
 ---
 
 ## Features
