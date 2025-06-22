@@ -86,6 +86,8 @@ if MODE == "submit":
     ac.await_job(jobid, None, PRINTS)
     annotations = ac.fetch_annotations(jobid, PRINTS)
 
+    print(annotations[0])
+
     createlink(annotations)
 
     du.draw_annotations(FILE_PATH, OUTPUT_IMAGE, annotations, PRINTS)
